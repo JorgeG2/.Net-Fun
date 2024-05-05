@@ -1,0 +1,18 @@
+# Ignore build output
+bin/
+obj/
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.assets.json
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore any user-specific files
+*.user
+*.suo
+
