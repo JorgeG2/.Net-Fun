@@ -16,4 +16,28 @@ project.assets.json
 *.user
 *.suo
 
-ever
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore app settings that may contain sensitive information
+appsettings.Development.json
+appsettings.json
+
+# Ignore specific files or libraries (optional, depending on your needs)
+MyRazorApp/Properties/launchSettings.json
+
+# Ignore build artifacts and NuGet package caches
+project.nuget.cache
+project.assets.json
+
+# Ignore .NET generated files
+*.pdb
+*.dll
+*.runtimeconfig.json
+
+# Ignore wwwroot static files (if not customized)
+MyRazorApp/wwwroot/
+
+# Ignore any other log files, backups, or temp files
+*.log
+*.bak
